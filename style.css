@@ -1,1 +1,60 @@
+/* Reset de estilos */
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family:sans;
+    background-color: #ffffffc5;
+    color: #000000d5;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #fc0202;
+    color: #fff;
+    font-family: a;
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    background-color: #fc0202;
+    color: #fff;
+    font-family: a;
+    text-align: center;
+    padding: 1em;
+   /* position: absolute;*/
+    bottom: 70;
+    width: 100%;
+}
+/* Estilos da galeria */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+
+.restaurante {
+    width: 30%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.restaurante img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.restaurante h3 {
+    margin-top: 0.5em;
+}
+.restaurante {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
 
