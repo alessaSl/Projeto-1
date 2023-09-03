@@ -3,8 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* a */
-/* b */
 body{
   background-color: white;
 }
@@ -44,7 +42,6 @@ h4{
   gap: 2vw;
   padding: 0 2vw;
 }
-/* l */
 .gallery-items{
   width: 340px;
   height: 340px;
