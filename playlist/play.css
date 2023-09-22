@@ -1,0 +1,132 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(83, 68, 122);
+    background: linear-gradient(135deg, rgb(163, 95, 202) 0%, rgb(57, 9, 77) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.title-separator {
+    border: 0;
+    border-top: 1px solid #fdfdfdb3;
+    margin: 10px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background-color: rgba(18, 18, 18, 1);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -20px;
+    letter-spacing: 1px;
+}
+
+h5 {
+    text-align: center;
+    color: #acacac;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.5s;
+    border-radius: 7px;
+}
+
+li:hover {
+    background-color: rgba(70, 70, 70, 0.664);
+    border-radius: 7px;
+}
+
+.highlighted-text {
+    color: #696969;
+}
+
+.play-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    background-color: #ffffff;
+    color: #1d1d1d;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.play-button::before {
+    content: '\25B6';
+    margin-right: -1.6px;
+    transition: .5s;
+}
+
+.play-button:hover {
+    background-color: #1a28a1;
+    transition: .5s;
+    width: 35px;
+    height: 35px;
+}
+
+#now-playing {
+    font-size: 16px; 
+    font-weight: bold;
+    color: #acacac; 
+    margin-bottom: 10px; 
+    text-align: center;
+    font-style: italic; 
+}
+
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%; 
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    .play-button {
+        width: 25px; 
+        height: 25px;
+        font-size: 16px;
+    }
+
+    audio {
+        margin-top: 5px;
+    }
+}
