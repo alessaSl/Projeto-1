@@ -3,61 +3,61 @@ let allMusic = [
   {
     name: "Ella Baila Sola ",
     artist: "Peso Pluma",
-    img: "music-1",
+    img: "ella",
     src: "stereolove"
   },
   {
     name: "Lady Gaga",
     artist: "Peso Pluma",
-    img: "music-2",
+    img: "LADYGAGA",
     src: "LADYGAGA"
   },
   {
     name: "Mi Bello",
     artist: "Peso Pluma",
-    img: "music-3",
+    img: "Mibello",
     src: "Mibello"
   },
   {
     name: "Rosa Pastel",
     artist: "Peso Pluma",
-    img: "music-4",
+    img: "rosaPastel",
     src: "rosaPastel"
   },
   {
     name: "Na Na Na",
     artist: "Akon",
-    img: "music-5",
+    img: "NANaNa",
     src: "NaNaNa"
   },
   {
     name: "Your Love",
     artist: "Cavin Harris & Disciples",
-    img: "music-6",
+    img: "YourLove",
     src: "YourLove"
   },
   {
     name: "Stereo Love",
     artist: "Peso Pluma",
-    img: "music-6",
+    img: "stereolove",
     src: "stereolove"
   },
   {
     name: "Sentimento Puro",
     artist: "Sidoka",
-    img: "music-6",
+    img: "SENTIMENTOPURO",
     src: "SENTIMENTOPURO"
   },
   {
     name: "Será Que Cê Lembra?",
     artist: "Sidoka",
-    img: "music-6",
+    img: "celembra",
     src: "celembra"
   },
   {
     name: "Voodoo",
     artist: "UCLÃ",
-    img: "music-6",
+    img: "voodoo",
     src: "voodoo"
   },
 ];
