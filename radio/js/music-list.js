@@ -22,7 +22,7 @@ let allMusic = [
     name: "Rosa Pastel",
     artist: "Peso Pluma",
     img: "music-4",
-    src: "rosapastel"
+    src: "rosaPastel"
   },
   {
     name: "Na Na Na",
