@@ -1,37 +1,61 @@
 <!DOCTYPE html>
-<html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
 <head>
-  <title>Mix  Player</title>
-  <link rel="stylesheet" href="radio.css">
-
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mix Player | Alê</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-  <div class="player">
-
-    <div class="logo">
-      <i class='bx bx-music'></i>
+  <div class="wrapper">
+    <div class="top-bar">
+      <i class="material-icons">expand_more</i>
+      <span>Now Playing</span>
+      <i class="material-icons">more_horiz</i>
     </div>
-    
-    <span id="musicName"></span>
-    
-    <audio id="player" src=""></audio>
-    <div class="controls">
-      <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
-      <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
-      <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+    <div class="img-area">
+      <img src="" alt="">
     </div>
-    <div class="footer">
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
       <div class="progress-bar">
-        <div class="progress"></div>
+        <audio id="main-audio" src=""></audio>
       </div>
-      <div class="time">
-        <span id="currentTime">0:00</span>
-        <span id="duration">0:00</span>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
       </div>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Music list</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+        <!-- here li list are coming from js -->
+      </ul>
     </div>
   </div>
-  <script type="module" src="radio2.js"></script>
+
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
