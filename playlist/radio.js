@@ -1,43 +1,63 @@
-export default [
-    {
-      src: "./ella.mp3",
-      name: "Stereo Love - Edward Maya & Mia Martina"
-    },
-    
-    {
-      src: "./LADYGAGA.mp3",
-      name: "Peso Pluma - Lady Gaga",
-    },
-    {
-      src: "Mibello.mp3",
-      name: "Mi Bello - Natanael Cano",
-    },
-    {
-      src: "rosaPastel.mp3",
-      name: "Rosa Pastel - Peso Pluma",
-    },
-    {
-      src: "stereolove.mp3",
-      name: "Peso Pluma - Ella Baila Sola",
-    },
-    {
-      src: "YourLove.mp3",
-      name: "Your Love - Cavin Harris & Disciples",
-    },
-    {
-        src: "NaNaNa.mp3",
-        name: "Na Na Na - Akon",
-      },
-      {
-        src: "voodoo.mp3",
-        name: "Voodoo - UCLÃ",
-      },
-      {
-        src: "SENTIMENTOPURO.mp3",
-        name: "Sentimento Puro -  Sidoka",
-      },
-      {
-        src: "celembra.mp3",
-        name: "Será Que Cê Lembra? - Sidoka",
-      },
-  ];
+
+let allMusic = [
+  {
+    name: "Ella Baila Sola ",
+    artist: "Peso Pluma",
+    img: "music-1",
+    src: "stereolove"
+  },
+  {
+    name: "Lady Gaga",
+    artist: "Peso Pluma",
+    img: "music-2",
+    src: "LADYGAGA"
+  },
+  {
+    name: "Mi Bello",
+    artist: "Peso Pluma",
+    img: "music-3",
+    src: "Mibello"
+  },
+  {
+    name: "Rosa Pastel",
+    artist: "Peso Pluma",
+    img: "music-4",
+    src: "music-4"
+  },
+  {
+    name: "Na Na Na",
+    artist: "Akon",
+    img: "music-5",
+    src: "NaNaNa"
+  },
+  {
+    name: "Your Love",
+    artist: "Cavin Harris & Disciples",
+    img: "music-6",
+    src: "YourLove"
+  },
+  {
+    name: "Stereo Love",
+    artist: "Peso Pluma",
+    img: "music-6",
+    src: "stereolove"
+  },
+  {
+    name: "Sentimento Puro",
+    artist: "Sidoka",
+    img: "music-6",
+    src: "SENTIMENTOPURO"
+  },
+  {
+    name: "Será Que Cê Lembra?",
+    artist: "Sidoka",
+    img: "music-6",
+    src: "celembra"
+  },
+  {
+    name: "Voodoo",
+    artist: "UCLÃ",
+    img: "music-6",
+    src: "voodoo"
+  },
+];
