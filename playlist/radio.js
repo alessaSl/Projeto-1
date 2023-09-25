@@ -1,6 +1,6 @@
 export default [
     {
-      src: "./ella.mp3",
+      src: "ella.mp3",
       name: "Stereo Love - Edward Maya & Mia Martina"
     },
     
