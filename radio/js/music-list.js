@@ -4,7 +4,7 @@ let allMusic = [
     name: "Ella Baila Sola ",
     artist: "Peso Pluma",
     img: "ella",
-    src: "stereolove"
+    src: "ella"
   },
   {
     name: "Lady Gaga",
